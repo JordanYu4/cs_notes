@@ -11,6 +11,7 @@
 
 #### Transport protocols: TCP v. UDP 
 UDP 
+- User Datagram Protocol
 - Lightweight, but unreliable 
 - Advantages 
     - Small packet sizes (8 bytes v. 20 bytes)
@@ -24,6 +25,7 @@ UDP
     - No congestion control 
         - Packages more likely to be dropped on crowded network 
 TCP 
+- Transmission Control Protocol 
 - Reliable, connection-based (more overhead)
 - Setting up connection: 3-way handshake to open and close connections 
     - TCP segments carry number 
