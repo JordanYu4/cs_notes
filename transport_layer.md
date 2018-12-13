@@ -3,6 +3,8 @@
 - Allows multiple applications to use same network connection 
 - Opens ~65,000 ports on computer to be reserved and used 
 
+### Data Transmission Protocols 
+
 #### Workflow 
 - Application sends message through port, which is wrapped in segment on transfer layer 
     - Segment indicates source and destination port  
@@ -65,6 +67,12 @@ UDP
 - Bandwidth-intensive apps that can tolerate some packet loss 
 - Low overhead 
 - Small question/answer transactions (e.g. DNS lookups)
+
+### Websocket Handshakes 
+- Use cases: checking if a user is online, sending notifications 
+- Persistent client-server connections allow data to be sent any tie 
+- Websocket handshake, `connection: upgrade`
+- Replaces HTTP connection with Websocket, using same underlying TCP/IP
 
 #### Terminology 
 - IPv - Internet Protocol version 
